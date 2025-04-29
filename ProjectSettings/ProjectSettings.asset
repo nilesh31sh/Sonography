@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: InionVR
-  productName: emt
+  productName: Sonography Prototype
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -139,7 +139,7 @@ PlayerSettings:
   loadStoreDebugModeEnabled: 0
   visionOSBundleVersion: 1.0
   tvOSBundleVersion: 1.0
-  bundleVersion: 2.0.0
+  bundleVersion: 1
   preloadedAssets:
   - {fileID: 11400000, guid: 6ae03bfc647e2ac488b3c6955c736d24, type: 2}
   - {fileID: 11400000, guid: f8cb6dc13b5eb314a8fc275bb7b6dd6e, type: 2}
@@ -164,6 +164,7 @@ PlayerSettings:
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
     Android: com.InionVR.emt
+    Standalone: com.InionVR.Sonography-Prototype
   buildNumber:
     Standalone: 0
     VisionOS: 0
@@ -898,6 +899,7 @@ PlayerSettings:
   platformArchitecture: {}
   scriptingBackend:
     Android: 1
+    Standalone: 0
   il2cppCompilerConfiguration: {}
   il2cppCodeGeneration: {}
   managedStrippingLevel:
@@ -1001,7 +1003,7 @@ PlayerSettings:
   embeddedLinuxEnableGamepadInput: 1
   hmiLogStartupTiming: 0
   hmiCpuConfiguration: 
-  apiCompatibilityLevel: 6
+  apiCompatibilityLevel: 3
   activeInputHandler: 2
   windowsGamepadBackendHint: 0
   cloudProjectId: fa2e462a-e366-4462-8d53-574891d5a55d
